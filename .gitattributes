@@ -1,0 +1,13 @@
+# Exclude build artifacts
+# See https://github.com/github/linguist
+*.json linguist-detectable=false
+*.bat text eol=crlf
+*.ts linguist-detectable
+*.jpg binary
+src/*.ts linguist-detectable
+
+*.map linguist-generated
+*.sh text eol=lf
+*.yaml linguist-detectable=false
+* text=auto eol=lf
+public/*.html linguist-vendored
